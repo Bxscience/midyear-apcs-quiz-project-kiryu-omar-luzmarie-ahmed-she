@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/CategTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/categories"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Categ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Classes, Interfaces, Inheritance"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Categ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Fields, Methods, Parameters"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Recursion and Big-O"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Sorting"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Stacks and Queues"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Arithmetic and Boolean Expressions"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Arraylist and LinkedList"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Arrays"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Categ9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Loops and Iterators"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/categ10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OpenQuiz"
+            android:text="Strings"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

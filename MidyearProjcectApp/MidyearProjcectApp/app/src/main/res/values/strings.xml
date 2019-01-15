@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MidyearProjcectApp</string>
+    <string name="arithmetic_and_boolean_expressions">Arithmetic and Boolean Expressions</string>
+    <string name="loops">Loops</string>
+    <string name="arrays">Arrays</string>
+    <string name="arraylists">Arraylists</string>
+    <string name="strings">Strings</string>
+    <string name="classes">Classes</string>
+    <string name="recursion">Recursion</string>
+    <string name="algos_big_o"><![CDATA[Algos & Big O]]></string>
+    <string name="searching_and_sorting">Searching And Sorting</string>
+    <string name="random">Random</string>
+    <string name="categories">Categories</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="answer_first">Answer First</string>
+    <string name="question_image">Question image</string>
+    <string-array name="Choices">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+</resources>
